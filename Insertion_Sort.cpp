@@ -27,14 +27,14 @@ void insertionSort2(int a[], int n){
 }
 int main()
 {
-	int n = 6;
+   int n = 6;
    int a[] = {6,8,1,4,5,0};
    cout<<"Danh sach ban dau: ";
    for(int i =0;i<n; i++){
        cout<<a[i]<<" ";
    }
    insertionSort2(a,n);
-    cout<<"\nDanh sach sau khi sap xep: ";
+   cout<<"\nDanh sach sau khi sap xep: ";
    for(int i =0;i<n; i++){
        cout<<a[i]<<" ";
    }
